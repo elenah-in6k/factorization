@@ -9,10 +9,11 @@ import static java.util.Arrays.asList;
 public  class Factorization {
     static List<Integer>  multipliers;
     public static List<Integer> getMultipliers(int number) {
-        if (number == 1)
-            multipliers = asList(1);
-        else
-            multipliers = asList(1, 2);
+        multipliers = asList(1);
+        if (number == 2)
+            multipliers = asList(1,2);
+        else if  (number == 3)
+            multipliers = asList(1,3);
 
         return multipliers;
     }
