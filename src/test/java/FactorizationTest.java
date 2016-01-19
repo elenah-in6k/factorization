@@ -1,5 +1,6 @@
 import org.junit.Test;
 
+import static java.util.Arrays.asList;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.*;
 
@@ -12,8 +13,10 @@ import java.util.List;
 public class FactorizationTest {
     @Test
     public void testFactorization() {
-        List<Integer> multipliers = Arrays.asList(1);
+        List<Integer> multipliers = asList(1);
         factorization(1, multipliers);
+        multipliers = asList(1, 2);
+        factorization(2, multipliers);
     }
 
      void factorization(int number, List<Integer> multipliers ) {
