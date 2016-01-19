@@ -14,6 +14,8 @@ public  class Factorization {
             multipliers = asList(1,2);
         else if  (number == 3)
             multipliers = asList(1,3);
+        else if  (number == 4)
+            multipliers = asList(2,2);
 
         return multipliers;
     }

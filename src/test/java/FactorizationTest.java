@@ -19,6 +19,8 @@ public class FactorizationTest {
         factorization(2, asList(1, 2));
 
         factorization(3, asList(1, 3));
+
+        factorization(4, asList(2, 2));
     }
 
      void factorization(int number, List<Integer> multipliers ) {
