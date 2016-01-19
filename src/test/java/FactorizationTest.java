@@ -13,10 +13,12 @@ import java.util.List;
 public class FactorizationTest {
     @Test
     public void testFactorization() {
-        List<Integer> multipliers = asList(1);
-        factorization(1, multipliers);
-        multipliers = asList(1, 2);
-        factorization(2, multipliers);
+
+        factorization(1, asList(1));
+
+        factorization(2, asList(1, 2));
+
+        factorization(3, asList(1, 3));
     }
 
      void factorization(int number, List<Integer> multipliers ) {
