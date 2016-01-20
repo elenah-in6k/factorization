@@ -8,26 +8,18 @@ import static java.util.Arrays.asList;
  * Created by elenahayfullina on 1/19/16.
  */
 public  class Factorization {
-     List<Integer>  multipliers = new ArrayList<Integer>();
+    List<Integer> multipliers = new ArrayList<Integer>();
 
-    public  List<Integer> getMultipliers(int number) {
-        if (number > 1) {
-            if (number % 2 == 0) {
-                number = number / 2;
-                multipliers.add(2);
-                getMultipliers(number);
-            } else if (number % 3 == 0) {
-                number = number / 3;
-                multipliers.add(3);
-                getMultipliers(number);
-            } else if (number % 5 == 0) {
-                number = number / 5;
-                multipliers.add(5);
-                getMultipliers(number);
-            } else {
-                multipliers.add(number);
+    public List<Integer> getMultipliers(int number) {
+                int i = 2;
+                while ((i <= number) && (number > 1)){
+                if (number % i == 0) {
+                    number = number / i;
+                    multipliers.add(i);
+                    getMultipliers(number);
+                }
+                    i++;
             }
-        }
         return multipliers;
     }
 }

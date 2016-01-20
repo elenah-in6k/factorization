@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4206ee4-15c6-4526-bf6a-55ab7969b69a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Factorization.class" afterPath="$PROJECT_DIR$/target/classes/Factorization.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/FactorizationTest.class" afterPath="$PROJECT_DIR$/target/test-classes/FactorizationTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Factorization.java" afterPath="$PROJECT_DIR$/src/main/java/Factorization.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/FactorizationTest.java" afterPath="$PROJECT_DIR$/src/test/java/FactorizationTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="factorization.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,11 +41,11 @@
       <file leaf-file-name="Factorization.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Factorization.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.60714287">
-              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.38636363">
+              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#244#253#0" expanded="true" />
+                <element signature="e#242#251#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -507,7 +503,7 @@
       <updated>1453223308472</updated>
       <workItem from="1453223311616" duration="4183000" />
       <workItem from="1453238355792" duration="2899000" />
-      <workItem from="1453273675592" duration="1389000" />
+      <workItem from="1453273675592" duration="2348000" />
     </task>
     <servers />
   </component>
@@ -544,7 +540,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8471000" />
+    <option name="totallyTimeSpent" value="9430000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-4" width="1857" height="1085" extended-state="6" />
@@ -584,21 +580,15 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Factorization.java</url>
-          <line>26</line>
+          <line>19</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Factorization.java</url>
-          <line>14</line>
+          <line>15</line>
           <properties />
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Factorization.java</url>
-          <line>17</line>
-          <properties />
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="7" />
@@ -626,7 +616,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#244#253#0" expanded="true" />
+            <element signature="e#242#251#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -655,7 +645,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#244#253#0" expanded="true" />
+            <element signature="e#242#251#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -734,11 +724,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Factorization.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60714287">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.38636363">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#244#253#0" expanded="true" />
+            <element signature="e#242#251#0" expanded="true" />
           </folding>
         </state>
       </provider>
