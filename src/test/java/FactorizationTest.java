@@ -14,21 +14,22 @@ public class FactorizationTest {
     @Test
     public void testFactorization() {
 
-        factorization(1, asList(1));
-
-        factorization(2, asList(1, 2));
-
-        factorization(3, asList(1, 3));
-
         factorization(4, asList(2, 2));
 
         factorization(6, asList(2, 3));
 
         factorization(8, asList(2, 2, 2));
+
+        factorization(10, asList(2, 5));
+
+        factorization(15, asList(3, 5));
+
+        factorization(25, asList(5, 5));
     }
 
-     void factorization(int number, List<Integer> multipliers ) {
-        assertThat(Factorization.getMultipliers(number), is(multipliers));
+    void factorization(int number, List<Integer> multipliers ) {
+        Factorization factorization = new Factorization();
 
+        assertThat(factorization.getMultipliers(number), is(multipliers));
     }
 }
